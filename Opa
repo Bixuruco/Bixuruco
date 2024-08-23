@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur's D&D Adventures</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #FFD700; /* Bright gold background */
+            color: #8B4513; /* Dark brown text */
+        }
+        header {
+            background-color: #FF4500; /* Bright orange-red */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #00CED1; /* Bright turquoise */
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background-color: #FAFAD2; /* Light goldenrod yellow */
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #8B008B; /* Dark magenta */
+        }
+        .dnd-session {
+            background-color: #98FB98; /* Pale green */
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arthur's D&D Adventures</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#dnd">D&D</a></li>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Arthur's Magical Realm</h2>
+            <p>Embark on epic quests and fantastical adventures in the world of Dungeons & Dragons!</p>
+        </section>
+        <section id="dnd">
+            <h2>Current D&D Campaign</h2>
+            <div class="dnd-session">
+                <h3>The Lost Mines of Phandelver</h3>
+                <p>Join our brave adventurers as they explore the dangerous caverns and face fearsome foes!</p>
+                <p>Next session: Saturday at 7 PM</p>
+            </div>
+        </section>
+        <section id="characters">
+            <h2>Player Characters</h2>
+            <ul>
+                <li>Thorin the Dwarf Paladin</li>
+                <li>Elara the Elf Wizard</li>
+                <li>Grimjaw the Half-Orc Barbarian</li>
+            </ul>
+        </section>
+        <section id="schedule">
+            <h2>Upcoming Sessions</h2>
+            <p>We meet every Saturday at 7 PM for our weekly D&D adventure!</p>
+        </section>
+    </div>
+</body>
+</html>
